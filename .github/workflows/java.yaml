@@ -38,7 +38,7 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           upload_url: ${{ steps.create_release.outputs.upload_url }}
-          asset_path: randomquotesapi-lambda-0.1.${{ github.run_number }}.jar
+          asset_path: target/randomquotesapi-lambda-0.1.${{ github.run_number }}.jar
           asset_name: randomquotesapi-lambda.0.1.${{ github.run_number }}.jar
           asset_content_type: application/zip
 
