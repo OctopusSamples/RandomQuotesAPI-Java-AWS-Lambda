@@ -22,7 +22,7 @@ public class RandomQuotes {
             final String json = "{\"quote\": \"" + quotes.get(randomIndex) + "\", " +
                     "\"author\": \"" + authors.get(randomIndex) + "\", " +
                     "\"appVersion\": \"" + getVersion() + "\", " +
-                    "\"environmentName\": \"Google Cloud Functions\", " +
+                    "\"environmentName\": \"AWS Lambda\", " +
                     "\"quoteCount\": \"" + count.getAndIncrement() + "\" " +
                     "}";
 
